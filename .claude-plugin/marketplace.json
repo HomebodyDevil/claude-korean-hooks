@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-korean-hooks",
+  "owner": {
+    "name": "HomebodyDevil",
+    "url": "https://github.com/HomebodyDevil"
+  },
+  "description": "한국어 응답 강제 훅 배포용 마켓플레이스",
+  "plugins": [
+    {
+      "name": "korean-hooks",
+      "source": "./",
+      "description": "매 프롬프트 한국어 규칙 주입 + 비한국어 응답 1회 재작성 요청"
+    }
+  ]
+}
